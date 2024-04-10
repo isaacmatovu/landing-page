@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background:#1F2937;
+    
+    
+}
+.top-nav{
+    display: flex;
+    justify-content: space-around;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap:20px;
+    
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.logo{
+    color:white;
+    font-size: 24px;
+
+}
+.low-nav .text{
+    display: flex;
+    justify-content: space-around;
+    padding:30px;
+    justify-content: center;
+    align-items:center ;
+    min-width: 300px;
+    gap:20px;
+    color: white;
+}
+.text .header h3{
+    font-size: 48px;
+}
+button{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(14, 84, 189);
+    border:3px solid white;
+    color: white;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(249, 242, 255);
+    height:300px;
+    gap:20px;
+    flex-wrap: wrap;
+   
+}
+.card{
+    display: flex;
+    width:200px;
+    height: 200px;
+    gap:20px;
+    border:3px solid rgb(42, 28, 95);
+    border-radius: 10px;
+    align-items:stretch;
+    justify-content: center;
+    
+    
+
+}
+img{
+    height: auto;
+}
+.mega-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+img{
+    
+    width: 190px;
+    min-height: auto;
+    border-radius: 10px;
+
+}
+.middle-2{
+     background-color: rgb(213, 231, 245);
+     height: 300px;
+     display: flex;
+     gap: 30px;
+     align-items: center;
+     justify-content:center;
+     flex-direction: column;
+    
+}
+.middle-2 .mega-heading2{
+    font-size: 30px;
+    width: 500px;
+}
+.middle .mini{
+    font-size: 10px;
+   
+    
+
+}
+.mini-footer{
+    background-color: aliceblue;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+
+}
+.container{
+    background-color: #041874;
+    width: 500px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 20px;
+    margin:80px;
+    border-radius: 20px;
+    color: aliceblue;
+}
+.footer{
+    background-color: #333333;
+    color: white;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
